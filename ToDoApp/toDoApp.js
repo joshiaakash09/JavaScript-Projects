@@ -131,14 +131,11 @@ function removeTaskFromLocalStorage(taskItem) {
 
 // Clear Tasks
 function clearTasks() {
-  // taskList.innerHTML = '';
 
-  // Faster
   while(taskList.firstChild) {
     taskList.removeChild(taskList.firstChild);
   }
 
-  // https://jsperf.com/innerhtml-vs-removechild
 
   // Clear from LS
   clearTasksFromLocalStorage();

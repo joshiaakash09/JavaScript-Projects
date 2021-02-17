@@ -1,1 +1,1 @@
-Collection of Projects
+Collection of JavaScripts Projects.

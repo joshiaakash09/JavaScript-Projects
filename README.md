@@ -1,1 +1,1 @@
-Collection of JavaScripts Projects.
+Collection of JavaScripts Projects..
